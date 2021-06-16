@@ -7,10 +7,10 @@
     "name": "ojm",
     "email": "ojm@ojm"
   },
-  
+
   "repository": {
     "type": "git",
-    "url": "git://github.com/YokoOJ/Sandbox.git"
+    "url": "git://github.com/YokoOJ/microservices-sd.git"
   },
   
   "bugs": {
@@ -23,9 +23,14 @@
       "url": "https://ojm/ojm"
     }
   ],
-  "main": "2.1.js", 
-  "engines": {
-    "node": "10.15.3",
-    "npm": "6.4.1"
-  }
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "openshift": "nodeshift --expose --dockerImage=registry.access.redhat.com/rhscl/ubi8/nodejs-12",
+    "start": "node test.js"
+  },
+  "files": [
+    "package.json",
+    "test.js"
+  ]
 }
