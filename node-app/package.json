@@ -1,0 +1,42 @@
+{
+  "name": "ojm", 
+  "description": "ojm", 
+  "version": "0.0.1", 
+  "homepage": "https://ojm/ojm",  
+  "author": {
+    "name": "ojm",
+    "email": "ojm@ojm"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YokoOJ/Sandbox.git"
+  },
+  
+  "bugs": {
+    "url": "https://ojm/ojm"
+  },
+  
+  "licenses": [
+    {
+      // ライセンスのタイプ
+      "type": "MIT",
+      // ライセンス情報ファイルのURL.
+      "url": "https://ojm/ojm"
+    }
+  ],
+  "main": "2.1.js", // 最初に読まれるファイル. エントリポイント.
+  // nodeとnpmのバージョン指定
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
+  // "scripts": {
+  //   "test": "nodeunit ojm.js"
+  // },
+  // npm install 時にインストールされるパッケージ
+  "dependencies": {
+    "ojm1": "^0.0.1",
+    "ojm2": "~0.0.2"
+  },
+}
